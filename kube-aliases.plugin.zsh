@@ -263,35 +263,35 @@ kstatus () {
   key="$1"
 
   case $key in
-    -C) 
+    -C)
       kpfind Completed
       shift
       ;;
-    -c) 
+    -c)
       kpfind CrashLoopBackOff
       shift
       ;;
-    -f) 
+    -f)
       kpfind Failed
       shift
       ;;
-    -p) 
+    -p)
       kpfind Pending
       shift
       ;;
-    -r) 
+    -r)
       kpfind Running
       shift
       ;;
-    -s) 
+    -s)
       kpfind Succeded
       shift
       ;;
-    -u) 
+    -u)
       kpfind Unknown
       shift
       ;;
-    -h) 
+    -h)
       echo "Usage: kstatus -[C|c|f|p|r|s|u]"
       echo "  -C                           Completed"
       echo "  -c                           CrashLoopBackOff"
