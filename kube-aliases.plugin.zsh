@@ -4,7 +4,6 @@ SHELL_NAME=$(basename $SHELL)
 
 # Contexts
 alias kcc='kubectl config get-contexts'
-alias kctx='kubectx'
 
 # Core
 alias k='kubectl'
@@ -114,7 +113,6 @@ alias kdsns='kubectl describe namespaces'
 alias kens='kubectl edit namespaces'
 alias kgns='kubectl get namespaces'
 alias kgnsy='kubectl get namespaces -o yaml'
-alias kns='kubens'
 
 # networkpolicies
 alias kgnp='kubectl get networkpolicies'
